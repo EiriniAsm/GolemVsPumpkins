@@ -54,6 +54,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -78,6 +80,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2442238258231612342
 GameObject:
   m_ObjectHideFlags: 0
@@ -89,7 +92,7 @@ GameObject:
   - component: {fileID: 1711309693560119717}
   - component: {fileID: 2442238258231612340}
   - component: {fileID: 2442238258231612343}
-  - component: {fileID: 1459697292}
+  - component: {fileID: -4608163353322359430}
   m_Layer: 0
   m_Name: Pumpkin
   m_TagString: Untagged
@@ -142,7 +145,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1459697292
+--- !u!114 &-4608163353322359430
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -151,7 +154,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2442238258231612342}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46c1a9c365e75f844bbff767af35f601, type: 3}
+  m_Script: {fileID: 11500000, guid: 7cbee957706fda8449f0345c8386592d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4355991971447678243
@@ -208,6 +211,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -233,3 +238,4 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
